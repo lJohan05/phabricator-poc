@@ -24,7 +24,7 @@ public class DevopsDemoApplication {
 	@GetMapping(path = "/", produces = "application/json")
 	public Map<String, String> index(){
 		Map<String, String> response = new HashMap<>();
-		response.put("message", "Hello world");
+		response.put("message", "Hello world!");
 		return response;
 	}
 	@GetMapping(path = "/unitTest", produces = "application/json")
